@@ -34,3 +34,7 @@ Monitors the alleged BVG bus delays on Berliner Kantstraße
 ```
 
 Slack informed https://chawi.slack.com/archives/CTLKJTMH7/p1647454261515379
+
+See also 
+* https://github.com/public-transport/bvg-hafas
+* https://github.com/public-transport/hafas-client/blob/5/readme.md#related
