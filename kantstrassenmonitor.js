@@ -40,7 +40,46 @@ const client = createClient('kantstrassenmonitor')
 // 900000024207 Kantstr./Leibnizstr.
 // 900000023206 Joachimsthaler/Kantstr./Theater des Westens
 
-var stations = ['900000023206', '900000024207', '900000024106'];
+/*
+    id: '900000024108',
+    name: 'Kaiser-Friedrich-Str./Kantstr.',
+
+    id: '900000024207',
+    name: 'Kantstr./Leibnizstr.',
+
+    id: '900000023206',
+    name: 'Joachimsthaler Str./Kantstr.',
+
+    id: '900000023105',
+    name: 'Uhlandstr./Kantstr.',
+
+    id: '900000026209',
+    name: 'Neue Kantstr./ZOB',
+
+    id: '900000024200',
+    name: 'U Wilmersdorfer Str./Kantstr.',
+
+    id: '900000024104',
+    name: 'Amtsgerichtsplatz',
+
+    id: '900000024204',
+    name: 'Savignyplatz',
+*/
+
+var stations = [
+    '900000024106',
+    '900000024108',
+    '900000024207',
+    '900000023206',
+    '900000023105',
+    '900000026209',
+    '900000024200',
+    '900000024104',
+    '900000024204'
+];
+
+
+// var stations = ['900000023206', '900000024207', '900000024106'];
 stations.forEach(station => printDepartures(station));
 
 function printDepartures(station) {

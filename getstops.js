@@ -6,7 +6,7 @@ const vbbProfile = require('hafas-client/p/vbb')
 
 const client = createClient(vbbProfile, 'my-awesome-program')
 
-client.locations('theater des westens',	{
+client.locations('savigny', {
 	fuzzy: false,
 	results: 20,
 	stops: true,
