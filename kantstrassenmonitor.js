@@ -38,7 +38,7 @@ const client = createClient('kantstrassenmonitor')
 
 // 900000024106 Messe Nord/ICC
 // 900000024207 Kantstr./Leibnizstr.
-// 900000023206 Joachimsthaler/Kantstr.
+// 900000023206 Joachimsthaler/Kantstr./Theater des Westens
 
 var stations = ['900000023206', '900000024207', '900000024106'];
 stations.forEach(station => printDepartures(station));
