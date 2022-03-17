@@ -59,11 +59,11 @@ const client = createClient('kantstrassenmonitor')
     id: '900000024207',
     name: 'Kantstr./Leibnizstr.',
 
-    id: '900000023105',
-    name: 'Uhlandstr./Kantstr.',
-
     id: '900000024252',
     name: 'Schlüterstr.',
+
+    id: '900000023105',
+    name: 'Uhlandstr./Kantstr.',
 
     id: '900000024204',
     name: 'Savignyplatz',
