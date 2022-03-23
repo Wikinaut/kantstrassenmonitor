@@ -1,3 +1,5 @@
+time (Z=Zulu=UTC); tripId; stop.name; line.name; direction; when; plannedWhen; delay
+
 2022-03-16T17:51:51.102Z;1|24914|0|86|16032022;Theater des Westens;M49;Heerstr./Nennhauser Damm;2022-03-16T18:56:00+01:00;2022-03-16T18:56:00+01:00;0
 2022-03-16T17:51:51.102Z;1|24756|0|86|16032022;Theater des Westens;M49;S+U Zoologischer Garten;2022-03-16T18:57:00+01:00;2022-03-16T18:58:00+01:00;-60
 2022-03-16T17:51:51.102Z;1|28276|0|86|16032022;Theater des Westens;X34;S+U Zoologischer Garten;2022-03-16T19:00:00+01:00;2022-03-16T19:00:00+01:00;0
